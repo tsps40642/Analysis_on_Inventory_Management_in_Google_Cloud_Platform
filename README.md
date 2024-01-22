@@ -34,9 +34,9 @@ We can use a single SQL statement to train the model to forecast a single produc
 # Deployment quick guide:
 1. Create a new project on GCP platform
 2. Enable BigQuery, Vertex AI, AI platform, LookerStudio services and create new instance and new notebook with python kernel -- You are ready to run sales forecast
-3. Prepare training dataset
-3.1. Upload/Import dataset in Cloud storage and BigQuery, create training dataset under your project or
-3.2. Enable Streamming by Dataflow for data training preparation
+3. Prepare training dataset  
+    3.1. Upload/Import dataset in Cloud storage and BigQuery, create training dataset under your project or  
+    3.2. Enable Streamming by Dataflow for data training preparation  
 4. Develop and train model followed by making prediction
 5. Export output as predicted sales for further usage as monitoring dashboard
 
